@@ -1,0 +1,5 @@
+Model,Train_RMSE,Test_RMSE,R2_Score
+Linear Regression,0.7185,0.7514,0.5871
+Ridge Regression,0.7185,0.7514,0.5872
+Untuned Decision Tree,0.0,0.7502,0.5885
+Tuned Decision Tree,0.4869,0.6532,0.688
