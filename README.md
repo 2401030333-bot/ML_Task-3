@@ -1,6 +1,5 @@
-# AI & Machine Learning — Task 3
+# AI & Machine Learning - Task 3
 ### Model Validation, Overfitting Control & Hyperparameter Tuning
-**Maincrafts Technology** | www.maincrafts.com | hr@maincrafts.com
 
 ---
 
@@ -81,7 +80,7 @@ the unconstrained tree memorized the training data instead of generalizing.
 |---|---|---|---|---|---|
 | 0.8536 | 0.8004 | 0.8601 | 0.9521 | 0.8728 | **0.8678 (± 0.0488)** |
 
-### GridSearchCV — Hyperparameter Tuning
+### GridSearchCV - Hyperparameter Tuning
 - **Search grid:** `max_depth ∈ {3, 5, 7, 10}`, `min_samples_split ∈ {2, 5, 10}`
 - **Best parameters:** `max_depth = 10`, `min_samples_split = 10`
 - **Best CV RMSE:** 0.6349
@@ -165,8 +164,8 @@ scaler = joblib.load('feature_scaler.joblib')
 ## 9. Key Learning Outcomes
 
 After completing Task-3:
-- ✅ Detect overfitting and underfitting via train/test RMSE comparison
-- ✅ Apply cross-validation correctly for reliable performance estimation
-- ✅ Tune hyperparameters professionally using `GridSearchCV`
-- ✅ Build generalizable ML models
-- ✅ Follow industry-aligned ML workflows
+- Detect overfitting and underfitting via train/test RMSE comparison
+-  Apply cross-validation correctly for reliable performance estimation
+-  Tune hyperparameters professionally using `GridSearchCV`
+-  Build generalizable ML models
+-  Follow industry-aligned ML workflows
